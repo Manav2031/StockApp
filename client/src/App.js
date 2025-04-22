@@ -104,7 +104,7 @@ function App() {
 
       {!loading && selectedTicker && (
         <>
-          <div className="metrics">
+          {/* <div className="metrics">
             <h3>📊 Analysis Metrics</h3>
             <p>
               <strong>Volatility:</strong> {metrics.volatility}
@@ -115,7 +115,7 @@ function App() {
             <p>
               <strong>Max Drawdown:</strong> {metrics.max_drawdown}
             </p>
-          </div>
+          </div> */}
 
           <div className="graph">
             <h2>
